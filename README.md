@@ -1,22 +1,26 @@
 nginx-token
 ===========
 
-<<<<<<< HEAD
 NOT same to Secure Link or Nginx Accesss Key
 Nginx-token will generate tokens and store in memcache with lua script. So it can work with another system for security well easily.
 
 # How to use
 
 use curl to test if you can catch the token or not
+
+```bash
 curl --data 'cookie=23823er23sdafjafadsfa&storeid=28322&filetype=png&callback=http://anyhost/interface.aspx' youhost/youlocation
+```
 
 and you will catch the token, for example:
 
+```bash
 ot@rhosouth001 nginx-token_github]# curl --data 'storied=28322&gid=23er23sdafjafadsfadwefjsdfj3dsf2&filetype=png&callback=http://www.cn100.com/interface.aspx&sz=20480' labs.rhomobi.com/test-json
 66985bc0f04ac3cd13e50b23bf5cf7d4
 [root@rhosouth001 nginx-token_github]#
+```
 
-Bugs and Patches
+# Bugs and Patches
     Please submit bug reports, wishlists, or patches by
 
     1. creating a ticket on the GitHub Issue Tracker
@@ -25,7 +29,7 @@ Bugs and Patches
     2. or posting to the Rhomobile community
         (<http://rhomobi.com>).
 
-TODO
+# TODO
   Short Term
     * add to redis include the token storage.
 
@@ -41,13 +45,13 @@ TODO
         (<http://agentzh.org/misc/nginx/lua-thread2.lua>).
 
 
-Changes
+# Changes
     The changes of every release of this module can be obtained from the
-    ngx_openresty bundle's change logs:
+    nginx-token's change logs:
 
     http://rhomobi.com/topics/71
 
-Test Suite
+# Test Suite
     The following dependencies are required to run the test suite:
 
     * Nginx version >= 0.8.54
@@ -86,7 +90,7 @@ Test Suite
 
     3. rds-json-nginx-module
 
-Copyright and License
+# Copyright and License
     This module is licensed under the BSD license.
 
     Copyright (C) 2009-2012, by Rhomobile Justin Huang (huangqi)
@@ -117,7 +121,7 @@ Copyright and License
     NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-See Also
+# See Also
     * lua-resty-memcached
         (<http://github.com/agentzh/lua-resty-memcached>) library based on
         ngx_lua cosocket.
@@ -136,9 +140,3 @@ See Also
 
     * ngx_devel_kit (<http://github.com/simpl/ngx_devel_kit>)
 
-
-# Author
-huangqi 2012cn100
-=======
-NOT same to Secure Link or Nginx Accesss Key , Nginx-token will generate tokens and store in memcache with lua script. So it work with another system for security well.
->>>>>>> 7270157a2b4b993feb1f47c5965c450a12f38b8f
