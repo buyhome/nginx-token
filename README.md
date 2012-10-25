@@ -4,7 +4,7 @@ nginx-token
 NOT same to Secure Link or Nginx Accesss Key
 Nginx-token will generate tokens and store in memcache with lua script. So it can work with another system for security well easily.
 
-# How to use
+How to use
 
 use curl to test if you can catch the token or not
 
@@ -20,7 +20,7 @@ ot@rhosouth001 nginx-token_github]# curl --data 'storied=28322&gid=23er23sdafjaf
 [root@rhosouth001 nginx-token_github]#
 ```
 
-# Bugs and Patches
+Bugs and Patches
     Please submit bug reports, wishlists, or patches by
 
     1. creating a ticket on the GitHub Issue Tracker
@@ -29,7 +29,7 @@ ot@rhosouth001 nginx-token_github]# curl --data 'storied=28322&gid=23er23sdafjaf
     2. or posting to the Rhomobile community
         (<http://rhomobi.com>).
 
-# TODO
+TODO
   Short Term
     * add to redis include the token storage.
 
@@ -45,13 +45,13 @@ ot@rhosouth001 nginx-token_github]# curl --data 'storied=28322&gid=23er23sdafjaf
         (<http://agentzh.org/misc/nginx/lua-thread2.lua>).
 
 
-# Changes
+Changes
     The changes of every release of this module can be obtained from the
     nginx-token's change logs:
 
     http://rhomobi.com/topics/71
 
-# Test Suite
+Test Suite
     The following dependencies are required to run the test suite:
 
     * Nginx version >= 0.8.54
@@ -90,7 +90,7 @@ ot@rhosouth001 nginx-token_github]# curl --data 'storied=28322&gid=23er23sdafjaf
 
     3. rds-json-nginx-module
 
-# Copyright and License
+Copyright and License
     This module is licensed under the BSD license.
 
     Copyright (C) 2009-2012, by Rhomobile Justin Huang (huangqi)
@@ -121,7 +121,7 @@ ot@rhosouth001 nginx-token_github]# curl --data 'storied=28322&gid=23er23sdafjaf
     NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# See Also
+See Also
     * lua-resty-memcached
         (<http://github.com/agentzh/lua-resty-memcached>) library based on
         ngx_lua cosocket.
