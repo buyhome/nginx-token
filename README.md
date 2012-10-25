@@ -8,23 +8,28 @@ How to use
 
 use curl to test if you can catch the token or not
 
-  * curl --data 'cookie=23823er23sdafjafadsfa&storeid=28322&filetype=png&callback=http://anyhost/interface.aspx' youhost/youlocation
+```bash
+curl --data 'cookie=23823er23sdafjafadsfa&storeid=28322&filetype=png&callback=http://anyhost/interface.aspx' youhost/youlocation
+```
 
 and you will catch the token, for example:
 
-  * curl --data 'storied=28322&gid=23er23sdafjafadsfadwefjsdfj3dsf2&filetype=png&callback=http://www.cn100.com/interface.aspx&sz=20480' labs.rhomobi.com/test-json
+```bash
+curl --data 'storied=28322&gid=23er23sdafjafadsfadwefjsdfj3dsf2&filetype=png&callback=http://www.cn100.com/interface.aspx&sz=20480' labs.rhomobi.com/test-json
+```
 
-  * 66985bc0f04ac3cd13e50b23bf5cf7d4
+catch the token
 
+```bash
+66985bc0f04ac3cd13e50b23bf5cf7d4
+```
 
 Bugs and Patches
     Please submit bug reports, wishlists, or patches by
 
-    1. creating a ticket on the GitHub Issue Tracker
-        (<http://buyhome.github.com/nginx-token>),
+    1. creating a ticket on the [GitHub Issue Tracker](http://buyhome.github.com/nginx-token),
 
-    2. or posting to the Rhomobile community
-        (<http://rhomobi.com>).
+    2. or posting to the [Rhomobile community](http://rhomobi.com).
 
 TODO
   Short Term
@@ -38,8 +43,7 @@ TODO
 
   Longer Term
     * add lightweight thread API (i.e., the "ngx.thread" API) as
-        demonstrated in this sample code
-        (<http://agentzh.org/misc/nginx/lua-thread2.lua>).
+        demonstrated in this [sample code](http://agentzh.org/misc/nginx/lua-thread2.lua).
 
 
 Changes
@@ -90,8 +94,7 @@ Test Suite
 Copyright and License
     This module is licensed under the BSD license.
 
-    Copyright (C) 2009-2012, by Rhomobile Justin Huang (huangqi)
-    <huangqi@rhomobi.com>.
+    Copyright (C) 2009-2012, by Rhomobile Justin Huang (huangqi)<huangqi@rhomobi.com>.
 
     All rights reserved.
 
@@ -119,21 +122,17 @@ Copyright and License
     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 See Also
-    * lua-resty-memcached
-        (<http://github.com/agentzh/lua-resty-memcached>) library based on
+    * [lua-resty-memcached](http://github.com/agentzh/lua-resty-memcached) library based on
         ngx_lua cosocket.
 
-    * lua-resty-redis (<http://github.com/agentzh/lua-resty-redis>)
+    * [lua-resty-redis](http://github.com/agentzh/lua-resty-redis)
         library based on ngx_lua cosocket.
 
-    * Dynamic Routing Based on Redis and Lua
-        (<http://openresty.org/#DynamicRoutingBasedOnRedis>)
+    * [Dynamic Routing Based on Redis and Lua](http://openresty.org/#DynamicRoutingBasedOnRedis)
 
-    * Using LuaRocks with ngx_lua (<http://openresty.org/#UsingLuaRocks>)
+    * [Using LuaRocks with ngx_lua](http://openresty.org/#UsingLuaRocks)
 
-    * Introduction to ngx_lua
-        (<https://github.com/chaoslawful/lua-nginx-module/wiki/Introduction>
-        )
+    * [Introduction to ngx_lua](https://github.com/chaoslawful/lua-nginx-module/wiki/Introduction)
 
-    * ngx_devel_kit (<http://github.com/simpl/ngx_devel_kit>)
+    * [ngx_devel_kit](http://github.com/simpl/ngx_devel_kit)
 
