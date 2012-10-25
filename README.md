@@ -8,17 +8,14 @@ How to use
 
 use curl to test if you can catch the token or not
 
-```bash
-curl --data 'cookie=23823er23sdafjafadsfa&storeid=28322&filetype=png&callback=http://anyhost/interface.aspx' youhost/youlocation
-```
+  * curl --data 'cookie=23823er23sdafjafadsfa&storeid=28322&filetype=png&callback=http://anyhost/interface.aspx' youhost/youlocation
 
 and you will catch the token, for example:
 
-```bash
-ot@rhosouth001 nginx-token_github]# curl --data 'storied=28322&gid=23er23sdafjafadsfadwefjsdfj3dsf2&filetype=png&callback=http://www.cn100.com/interface.aspx&sz=20480' labs.rhomobi.com/test-json
-66985bc0f04ac3cd13e50b23bf5cf7d4
-[root@rhosouth001 nginx-token_github]#
-```
+  * curl --data 'storied=28322&gid=23er23sdafjafadsfadwefjsdfj3dsf2&filetype=png&callback=http://www.cn100.com/interface.aspx&sz=20480' labs.rhomobi.com/test-json
+
+  * 66985bc0f04ac3cd13e50b23bf5cf7d4
+
 
 Bugs and Patches
     Please submit bug reports, wishlists, or patches by
